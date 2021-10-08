@@ -1,3 +1,46 @@
+.mainPage {
+  min-height: 100vh;
+  position: relative;
+  background-color: #3fb3ab;
+  padding-top: 205px;
+}
+
+.mainPage__title {
+  width: 535px;
+  margin-top: 10px;
+}
+
+.mainPage__subtitle {
+  position: relative;
+  padding-left: 10px;
+  z-index: 2;
+  /* @include before_circle;*/
+}
+
+.mainPage__btns {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 245px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mainPage__link {
+  color: #000;
+  font-weight: bold;
+}
+
+.mainPage__link:hover {
+  color: #000;
+  text-decoration: none;
+}
+
 .mainPage .hamburger {
   position: absolute;
   top: 20px;

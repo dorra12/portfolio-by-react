@@ -1,5 +1,35 @@
 @import "../Variables/Variables.scss";
 .mainPage{
+    min-height: 100vh;
+    position: relative;
+    background-color: $main-color;
+    padding-top: 205px;
+    &__title {
+        width: 535px;
+        margin-top: 10px;
+    }
+    &__subtitle {
+        position: relative;
+        padding-left: 10px;
+        z-index: 2;
+       /* @include before_circle;*/
+    }
+    &__btns {
+        margin-top: 25px;
+        display: flex;
+        width: 245px;
+        align-items: center;
+        justify-content: space-between;
+      }
+      &__link {
+        color:$black-color;
+        font-weight: bold;
+        &:hover {
+          color: $black-color;
+          text-decoration: none;
+        }
+    }
+
     .hamburger{
         position: absolute;
         top: 20px;
