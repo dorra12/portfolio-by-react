@@ -1,0 +1,42 @@
+.mainPage .hamburger {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  cursor: pointer;
+}
+
+.mainPage .hamburger span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #151812;
+}
+
+.mainPage .hamburger span.long {
+  width: 36px;
+}
+
+.mainPage button {
+  width: 200px;
+  height: 40px;
+  background-color: #d53a0b;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+}
+/*# sourceMappingURL=MainPage.css.map */
